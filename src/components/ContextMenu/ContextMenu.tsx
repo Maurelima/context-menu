@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './ContextMenu.css'
+import './ContextMenu.scss'
 
 type MenuData = {
     menuDescription: string;
