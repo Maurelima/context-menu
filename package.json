@@ -1,6 +1,6 @@
 {
-  "name": "contextmenu",
-  "version": "0.0.1",
+  "name": "react-easy-contextmenu",
+  "version": "0.0.6",
   "description": "A solution for context menu in React.",
   "scripts": {
     "rollup": "rollup -c"
@@ -15,6 +15,7 @@
     "react": "^17.0.2",
     "rollup": "^2.70.1",
     "rollup-plugin-dts": "^4.2.0",
+    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.3.1",
     "typescript": "^4.6.2"
   },
@@ -23,5 +24,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "postcss": "^8.4.12"
+  }
 }

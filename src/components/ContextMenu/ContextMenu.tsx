@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './ContextMenu.css'
+
 type MenuData = {
     menuDescription: string;
     menuFunction: any;
@@ -17,7 +19,6 @@ interface ContextMenuProps {
         xClickPosition: number;
         yClickPosition: number;
     }
-    //  includes(searchElement: T, fromIndex?: number): boolean;
 }
 
 const ContextMenu = ({ showContextMenu, menuData, anchorPoint }: ContextMenuProps) => {
