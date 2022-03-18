@@ -13,4 +13,26 @@ ul {
     opacity: 1;
     transition: opacity 0.5s linear;
     z-index: 999999;
+
+    li {
+        height: 30px;
+        button {
+          padding: 0px 20px 0px 20px;
+          height: 28px;
+          text-align: left;
+          width: 100%;
+          font-size: 0.77rem;
+          color: #ededed;
+          background: transparent;
+          border: none;
+          font-family: 'Segoe UI', sans-serif;
+  
+          &:hover {
+            background: #3f4042;
+          }
+        }
+        svg {
+          color: #9aa0a6;
+        }
+      }
 }

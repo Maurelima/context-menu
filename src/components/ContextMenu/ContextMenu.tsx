@@ -24,7 +24,7 @@ interface ContextMenuProps {
 const ContextMenu = ({ showContextMenu, menuData, anchorPoint }: ContextMenuProps) => {
     return (
         <>
-            {/* {showContextMenu && ( */}
+            {showContextMenu && (
                 <ul
                     className="menu"
                     style={{
@@ -56,7 +56,7 @@ const ContextMenu = ({ showContextMenu, menuData, anchorPoint }: ContextMenuProp
                         </button>
                     </li>
                 </ul>
-            {/* )} */}
+            )} 
         </>
 
     )
